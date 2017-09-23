@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+
 import registerServiceWorker from './registerServiceWorker';
 
 import { Provider } from 'react-redux';
@@ -10,6 +10,9 @@ import { Router , Route, Switch } from 'react-router-dom';
 import reducers from './reducers';
 import { syncHistoryWithStore, routerMiddleware } from 'react-router-redux';
 import createBrowserHistory from 'history/createBrowserHistory';
+
+import RecruiterPage from './containers/container_recruiter';
+import StudentPage from './containers/container_student';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -25,7 +28,15 @@ ReactDOM.render(
   <Provider store={store}>
   <Router history={history}>
 
-  <App />
+  <div>
+
+  <Switch>
+  <Route exact path="/" component={StudentPage} />
+  <Route path="/student" component={StudentPage} />
+  <Route path="/recruiter" component={RecruiterPage} />
+  </Switch>
+
+  </div>
 
   </Router>
   </Provider>
