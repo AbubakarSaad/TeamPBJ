@@ -3,6 +3,9 @@ import RecruiterView from '../components/component_RecruiterView';
 import SearchBar from './container_recruiterSearchBar';
 import SearchResults from './container_recruiterSearchResults';
 import '../css/mainDan.css';
+import NavBar from '../components/recruiterNavBar';
+import { Route } from 'react-router-dom';
+import candidatesPage from './container_CandidatePage';
 
 class RecruiterPage extends Component{
 
@@ -25,12 +28,13 @@ class RecruiterPage extends Component{
 
   }
 
-  render(){
-    return(
-      <div>
 
-      <RecruiterView>
-        <h3 className="display-4">Recruiter Page</h3>
+
+  render(){
+    const search = () => {
+      return(
+        <div>
+        <h3>Talent Search</h3>
         <div className="row">
         <div className="form-group">
           <SearchBar update={this.updateResults}/>
@@ -40,6 +44,17 @@ class RecruiterPage extends Component{
         <div className="row">
           <SearchResults results={this.state.results}/>
         </div>
+        </div>
+      )
+    }
+
+    return(
+      <div>
+      <NavBar/>
+      <RecruiterView>
+      <Route exact path="/recruiter/" component={search} />
+      <Route path="/recruiter/candidates" component={candidatesPage} />
+
 
       </RecruiterView>
       </div>

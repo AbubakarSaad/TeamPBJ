@@ -8,7 +8,6 @@ class Navbar extends Component {
 
     render() {
         return (
-=
             <div>
             <ul id="slide-out" className="side-nav fixed">
                 <li>
@@ -30,10 +29,9 @@ class Navbar extends Component {
             <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
 
             </div>
-        
+
         );
     }
 };
 
 export default Navbar;
-

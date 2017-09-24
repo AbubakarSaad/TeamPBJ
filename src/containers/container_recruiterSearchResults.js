@@ -34,11 +34,12 @@ class SearchResults extends Component{
             <p>{obj.program} - {obj.school}</p>
             <p>{this.renderWork(obj.experience)}</p>
             <br />
-            {this.renderSkills(obj.skills)}
+
 
           </div>
 
           <div className="card-action">
+          {this.renderSkills(obj.skills)}
           <button className="btn btn-primary activator" style={{float: 'right'}}>Connect</button>
         </div>
           </div>
@@ -46,8 +47,34 @@ class SearchResults extends Component{
 
 
           <div className="card-reveal">
-            <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">x</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <span className="card-title grey-text text-darken-4">Request Initial Interview<i className="material-icons right">close</i></span>
+            <form onSubmit={e=>{
+              e.preventDefault();
+              console.log(e.target.url.value);
+            }}>
+            <div className="row">
+
+             <div className="col s6 input-field">
+
+              <input type="text" id="url" name="url"/>
+              <label htmlFor="url">Job URL</label>
+              </div>
+
+
+              <div className="col s6 input-field">
+              <input type="text" id="team" name="team"/>
+              <label htmlFor="team">Department/Team</label>
+
+
+             </div>
+
+
+
+            </div>
+
+            <button className="btn btn-primary score" type="submit">Submit</button>
+            </form>
+
           </div>
 
 
