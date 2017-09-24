@@ -8,7 +8,6 @@ class Navbar extends Component {
 
     render() {
         return (
-=
             <div>
             <ul id="slide-out" className="side-nav fixed">
                 <li>
@@ -16,18 +15,21 @@ class Navbar extends Component {
                         <div className="background">
                             <img src={rbcblue} alt="office"/>
                         </div>
-                        <a href="#"><img className="circle" src={avatar} alt="person"/></a>
-                        <a href="#!name"><span className="white-text name">John Doe</span></a>
-                        <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
+                        <div className="row">
+                            <div className="col s4">
+                                <a href="#"><img className="circle" src={avatar} alt="person"/></a>
+                            </div>
+                            <div className="col s6">
+                                <a href="#!name"><span className="white-text name">John Doe</span></a>
+                                <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
+                            </div>
+                        </div>
                     </div>
                 </li>
-                <li><a href="#!"><i className="material-icons">cloud</i>First Link With Icon</a></li>
-                <li><a href="#!">Second Link</a></li>
-                <li><div className="divider"></div></li>
-                <li><a className="subheader">Subheader</a></li>
-                <li><a className="waves-effect" href="#!">Third Link With Waves</a></li>
+                <li><a href="#!"><i className="material-icons">cloud</i>Techncail</a></li>
+                <li><a href="#!"><i className="material-icons">cloud</i>About Me</a></li>
+                <li><a href="#!"><i className="material-icons">cloud</i>Education</a></li>
             </ul>
-            <a href="#" data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
 
             </div>
         

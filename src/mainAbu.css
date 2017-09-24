@@ -1,0 +1,14 @@
+@import url("mainJeff.css");
+
+#slide-out {
+    background: #333643;
+    color: white;
+}
+
+.side-nav li>a {
+    color: white;
+}
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+    color: white;
+}

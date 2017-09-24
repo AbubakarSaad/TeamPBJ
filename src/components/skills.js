@@ -21,24 +21,24 @@ const skills = () => {
             <div className="row">    
                 <div className="col s2">
                     <h6> Angular </h6>
-                    <img src={angular} style={{width:"65%"}} alt="nodejs" className="img-responsive"/>
+                    <img src={angular} style={{width:"80%"}} alt="nodejs" className="img-responsive"/>
                 </div>
                 <div className="col s2">
                      <h6> JavaScript</h6>
-                    <img src={nodejs} style={{width:"65%"}} alt="nodejs" className="img-responsive"/>
+                    <img src={nodejs} style={{width:"80%"}} alt="nodejs" className="img-responsive"/>
                 </div>
                 <div className="col s2">
                      <h6> HTML </h6>
-                    <img src={html5} style={{width:"65%"}} alt="nodejs" className="img-responsive"/>
+                    <img src={html5} style={{width:"80%"}} alt="nodejs" className="img-responsive"/>
                 </div>
 
                 <div className="col s2">
                      <h6> DataBase </h6>
-                    <img src={sql} style={{width:"65%"}} alt="nodejs" className="img-responsive"/>
+                    <img src={sql} style={{width:"80%"}} alt="nodejs" className="img-responsive"/>
                 </div>
                 <div className="col s2">
                     <h6> Atom </h6>
-                    <img src={react} style={{width:"65%"}} alt="nodejs" className="img-responsive"/>
+                    <img src={react} style={{width:"80%"}} alt="nodejs" className="img-responsive"/>
                 </div>
                 <div className="col s2">
                     <h6> Security </h6>
