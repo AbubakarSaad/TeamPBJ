@@ -1,5 +1,9 @@
 @import url("mainJeff.css");
 
+body {
+    background: #f4f4f4;
+}
+
 #slide-out {
     background: #333643;
     color: white;
@@ -11,4 +15,12 @@
 
 .side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
     color: white;
+}
+
+.card {
+    width:100%;
+}
+
+.chipWrapper {
+    margin-top: 8px;
 }

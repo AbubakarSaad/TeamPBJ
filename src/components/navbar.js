@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import avatar from '../images/avatar.png';
-import rbcblue from '../images/rbcblue.jpg';
+import darkblue from '../images/alittledarkblue.png';
 
 
 
@@ -13,7 +13,7 @@ class Navbar extends Component {
                 <li>
                     <div className="user-view">
                         <div className="background">
-                            <img src={rbcblue} alt="office"/>
+                            <img src={darkblue} alt="office"/>
                         </div>
                         <div className="row">
                             <div className="col s4">
