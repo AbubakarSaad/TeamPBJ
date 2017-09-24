@@ -8,7 +8,6 @@ class Navbar extends Component {
 
     render() {
         return (
-=
             <div>
             <ul id="slide-out" className="side-nav fixed">
                 <li>
