@@ -10,7 +10,7 @@ const rNavBar = () => {
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><a href="/recruiter/">Search</a></li>
         <li><a href="/recruiter/candidates">Candidates</a></li>
-        <li><a href="/department">Candidates</a></li>
+        <li><a href="/department">Departments</a></li>
 
       </ul>
       </div>
