@@ -32,10 +32,13 @@ class Navbar extends Component {
                         
                     </div>
                 </li>
+
                 <li><a href="#!"><i className="material-icons">android</i>Technical</a></li>
                 <li><a href="#!"><i className="material-icons">assignment_ind</i>About Me</a></li>
                 <li><a href="#!"><i className="material-icons">school</i>Education</a></li>
 
+                <li><a href="#!"><i className="material-icons">school</i>Challenges</a></li>
+            
                 <div className="scoreblock valign-wrapper valign center-block">
                     <div className="row">
                         <img src={score} alt="score" />

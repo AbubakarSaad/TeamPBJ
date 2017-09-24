@@ -10,10 +10,10 @@ class Challenges extends Component{
     return(
       <div className="container-fluid">
         <div className="row">
-            
-            <Navbar />
-            
-            <div className = "col m10">
+            <div className = "col s3">
+                <Navbar />
+            </div>
+            <div className = "col s9">
                 <Switch>
                     <Route exact path="/challenges/" component={Challenge} />
                     <Route path="/challenges/challenge" component={ChallengePage} />
