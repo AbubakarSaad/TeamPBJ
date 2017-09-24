@@ -8,6 +8,8 @@ import score from '../images/score.png';
 class Navbar extends Component {
 
     render() {
+
+
         return (
             <div>
             <ul id="slide-out" className="side-nav fixed">
@@ -25,11 +27,11 @@ class Navbar extends Component {
                                 <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
                             </div>
                             <div className="chip chipstatus">
-                                <img src={check} alt="check"/> Available 
+                                <img src={check} alt="check"/> Available
                             </div>
-                            
+
                         </div>
-                        
+
                     </div>
                 </li>
 
@@ -38,7 +40,7 @@ class Navbar extends Component {
                 <li><a href="#!"><i className="material-icons">school</i>Education</a></li>
 
                 <li><a href="#!"><i className="material-icons">school</i>Challenges</a></li>
-            
+
                 <div className="scoreblock valign-wrapper valign center-block">
                     <div className="row">
                         <img src={score} alt="score" />

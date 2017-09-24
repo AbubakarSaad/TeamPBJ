@@ -21,8 +21,8 @@ class candidatePage extends Component {
             <td>{obj.position}</td>
             <td>{obj.team}</td>
             <td>{obj.phone}</td>
-            <td>{obj.onsite === "Request"? (<a href="#" className="btn">{obj.onsite}</a>) : obj.onsite}</td>
-            <td>{obj.offer === "Send"? (<a href="#" className="btn">{obj.offer}</a>) : obj.offer}</td>
+            <td>{obj.onsite === "Request"? (<a href="#" className="btn btn-primary">{obj.onsite}</a>) : obj.onsite}</td>
+            <td>{obj.offer === "Send"? (<a href="#" className="btn btn-primary">{obj.offer}</a>) : obj.offer}</td>
             <td><button className="btn-flat">X</button></td>
           </tr>
 

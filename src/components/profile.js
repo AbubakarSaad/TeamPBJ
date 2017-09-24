@@ -22,7 +22,7 @@ const profile = () => {
 
 
                         </div>
-                        <div className="chip chipstatus">
+                        <div className="chip chipstatus2">
                             <img src={check} alt="check"/> Available
                         </div>
                         <hr />

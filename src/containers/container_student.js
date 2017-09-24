@@ -11,10 +11,10 @@ class StudentPage extends Component{
     return(
       <div>
         <div className="row">
-          <div className="col s3">
+          <div className="col s2">
             <Navbar />
           </div>
-          <div className="col s9">
+          <div className="col s10">
               <Skills visible={true}/>
                 <Challenges visible={true} />
               <AboutMe />
