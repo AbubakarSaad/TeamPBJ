@@ -6,15 +6,25 @@ class StudentPage extends Component{
 
   render(){
     return(
-      <div className="container-fluid">
-        <div className="row">
-          <Navbar />
-          <div className="col-9 col-sm-10 col-md-10 col-lg-11 col-xl-11">
-              <h2>Hello There</h2>
-              <p>Test test test test test test test </p>
+       <div className="container-fluid">
+                <Navbar />
+            <div className="row">
+              <div className="col-md-12">
+                <AboutMe />
+              </div>  
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <Education />
+              </div>  
+            </div>              
+            <div className="row">
+              <div className="col-md-12">
+                <Interests />
+              </div>  
+            </div>          
+
           </div>
-        </div>
-      </div>
     );
   }
 }
