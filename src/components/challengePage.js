@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {withRouter} from "react-router-dom";
 
 import pawn from '../images/pawn.png';
 import knight from '../images/knight.png';
@@ -6,13 +7,17 @@ import rook from '../images/rook.png';
 import rookIcon from '../images/rookIcon.png';
 
 class ChallengePage extends Component {
+    handleClick = () => {
+        this.props.history.push('/challenges');
+    };
+
 
     render() {
         return (
             <div className="container challengePage  middleLine">
                 <div className="row">
                     <div className="topBar">
-                        <div className="col s3"><i className="material-icons">arrow_back</i></div>
+                        <div className="col s3" onClick={this.handleClick}><i className="material-icons">arrow_back</i></div>
                         <div className="col s3 offset-s6">
                     </div>
                             <div className="chip right">
@@ -107,5 +112,5 @@ class ChallengePage extends Component {
     }
 };
 
-export default ChallengePage;
+export default withRouter(ChallengePage);
 
