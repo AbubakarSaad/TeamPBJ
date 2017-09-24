@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../components/navbar';
-
+import Skills from '../components/skills';
+import AboutMe from '../components/AboutMe';
+import Education from '../components/Education';
 
 class StudentPage extends Component{
 
@@ -9,15 +11,14 @@ class StudentPage extends Component{
       <div className="container-fluid">
         <div className="row">
           <Navbar />
-          <div className="col-9 col-sm-10 col-md-10 col-lg-11 col-xl-11">
-              <h2>Hello There</h2>
-              <p>Test test test test test test test </p>
-                
-        
-        
+
+          <div className="col-10 flex-md-las">
+              <Skills />
+              <AboutMe />
+              <Education /> 
+            </div>            
           </div>
         </div>
-      </div>
     );
   }
 }

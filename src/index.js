@@ -20,7 +20,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './mainJeff.css';
 import ChallengePage from './containers/container_challenges';
 
-
 const storeWithMiddleWare = applyMiddleware(routerMiddleware(createBrowserHistory({forceRefresh:true})))(createStore);
 
 const store = storeWithMiddleWare(reducers);
