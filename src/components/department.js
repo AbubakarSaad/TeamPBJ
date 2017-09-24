@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import we4 from '../images/we4.jpg';
 
-import we2 from '../images/we2.jpg';
-
 import we3 from '../images/we3.jpg';
 import NavBar from '../components/recruiterNavBar';
 

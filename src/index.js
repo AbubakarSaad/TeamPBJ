@@ -19,6 +19,7 @@ import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.js';
 import './mainAbu.css';
 import ChallengePage from './containers/container_challenges';
+
 import Dept from './containers/container_departments';
 
 
