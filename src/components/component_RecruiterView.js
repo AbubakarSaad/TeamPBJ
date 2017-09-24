@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/recruiterPage.css';
+
 
 const recruiterHomePage = (props) => {
   return(
