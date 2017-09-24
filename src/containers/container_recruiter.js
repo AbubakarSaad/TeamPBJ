@@ -6,6 +6,7 @@ import '../css/mainDan.css';
 import NavBar from '../components/recruiterNavBar';
 import { Route } from 'react-router-dom';
 import candidatesPage from './container_CandidatePage';
+import recruiterStudentView from './container_recruiterStudentView';
 
 class RecruiterPage extends Component{
 
@@ -64,6 +65,7 @@ class RecruiterPage extends Component{
       <RecruiterView>
       <Route exact path="/recruiter/" component={search} />
       <Route path="/recruiter/candidates" component={candidatesPage} />
+      <Route path="/recruiter/student" component={recruiterStudentView} />
 
 
       </RecruiterView>

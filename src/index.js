@@ -4,12 +4,7 @@ import ReactDOM from 'react-dom';
 
 import registerServiceWorker from './registerServiceWorker';
 
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import { Router , Route, Switch } from 'react-router-dom';
-import reducers from './reducers';
-import { syncHistoryWithStore, routerMiddleware } from 'react-router-redux';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import RecruiterPage from './containers/container_recruiter';
 import StudentPage from './containers/container_student';
@@ -28,16 +23,9 @@ import './mainAbu.css';
 
 
 
-const storeWithMiddleWare = applyMiddleware(routerMiddleware(createBrowserHistory({forceRefresh:true})))(createStore);
-
-const store = storeWithMiddleWare(reducers);
-
-const history = syncHistoryWithStore(createBrowserHistory(), store);
-
 
 ReactDOM.render(
-  <Provider store={store}>
-  <Router history={history}>
+  <BrowserRouter>
 
   <div>
 
@@ -45,15 +33,14 @@ ReactDOM.render(
   <Route exact path="/" component={StudentPage} />
   <Route path="/student" component={StudentPage} />
   <Route path="/recruiter" component={RecruiterPage} />
-  <Route path="/challenges" component={ChallengePage} />  
+  <Route path="/challenges" component={ChallengePage} />
   <Route path="/department" component={Dept} />
 
   </Switch>
 
   </div>
 
-  </Router>
-  </Provider>
+  </BrowserRouter>
 
   , document.getElementById('root'));
 registerServiceWorker();

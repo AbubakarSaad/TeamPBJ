@@ -9,10 +9,10 @@ class MainStudent extends Component{
     render() {
         return (
             <div>
-              <Skills />
-              <Challenges />
+              <Skills visible={true}/>
+              <Challenges visible={true}/>
               <AboutMe />
-              <Education />
+              <Education visible={true}/>
             </div>
         )
     }

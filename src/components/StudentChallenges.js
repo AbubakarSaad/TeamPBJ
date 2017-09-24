@@ -15,16 +15,17 @@ class StudentChallenges extends Component {
                                 <div>
                                     <div className="card-title">Assessment</div>
                                     <div className="divider"></div>
-                                    <div className="fixed-action-btn horizontal" style={{position: 'absolute', display: 'inline-block', right: 19, top: 4}}>
+                                    {this.props.visible ? (<div className="fixed-action-btn horizontal" style={{position: 'absolute', display: 'inline-block', right: 19, top: 4}}>
                                  <span id ="currentRank"><img src={rookIcon} alt = "Assessment" height="56px"/></span>
-                                </div>
+                                </div>) : ''}
                                 </div>
                                 <div className="aboutme">
                                     <p>Technical : Level 3 - Rook</p>
-                                   
+
                                     <div>
                                         <div className="card horizontal">
                                             <div className="card-image">
+
                                                     <img src={knight} alt="Challenge" height="115px"/>
                                             </div>
                                             <div className="card-stacked">
@@ -67,13 +68,12 @@ class StudentChallenges extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
-                </div>     
-            </div>           
+                </div>
+            </div>
         );
     }
 };
 
 export default StudentChallenges;
-

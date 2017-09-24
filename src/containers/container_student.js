@@ -23,6 +23,7 @@ class StudentPage extends Component{
                     
                 </Switch>
           </div>            
+
         </div>
       </div>
     );
