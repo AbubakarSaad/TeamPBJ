@@ -17,13 +17,7 @@ class StudentPage extends Component{
               <div className="col-md-12">
                 <Education />
               </div>  
-            </div>              
-            <div className="row">
-              <div className="col-md-12">
-                <Interests />
-              </div>  
-            </div>          
-
+            </div>            
           </div>
     );
   }
