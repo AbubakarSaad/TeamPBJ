@@ -13,12 +13,11 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import RecruiterPage from './containers/container_recruiter';
 import StudentPage from './containers/container_student';
-
-
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './mainJeff.css';
 import ChallengePage from './containers/container_challenges';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
+import './mainJeff.css';
+
 
 const storeWithMiddleWare = applyMiddleware(routerMiddleware(createBrowserHistory({forceRefresh:true})))(createStore);
 
