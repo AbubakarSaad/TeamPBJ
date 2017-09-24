@@ -8,16 +8,18 @@ class StudentPage extends Component{
 
   render(){
     return(
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
-          <Navbar />
-          <div className="col-9 flex-md-las">
+          <div className="col s3">
+            <Navbar />
+          </div>
+          <div className="col s9">
               <Skills />
               <AboutMe />
-              <Education /> 
-            </div>            
-          </div>
+              <Education />
+          </div>            
         </div>
+      </div>
     );
   }
 }
