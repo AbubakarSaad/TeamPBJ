@@ -45,10 +45,9 @@ class Navbar extends Component {
             </ul>
 
             </div>
-        
+
         );
     }
 };
 
 export default Navbar;
-
