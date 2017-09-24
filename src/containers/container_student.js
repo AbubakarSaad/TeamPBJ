@@ -8,12 +8,12 @@ class StudentPage extends Component{
 
   render(){
     return(
-      <div className="container">
+      <div>
         <div className="row">
           <div className="col s3">
             <Navbar />
           </div>
-          <div className="col s10">
+          <div className="col s9">
               <Skills />
               <AboutMe />
               <Education />
