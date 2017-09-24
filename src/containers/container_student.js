@@ -12,6 +12,9 @@ class StudentPage extends Component{
           <div className="col-9 col-sm-10 col-md-10 col-lg-11 col-xl-11">
               <h2>Hello There</h2>
               <p>Test test test test test test test </p>
+                
+        
+        
           </div>
         </div>
       </div>
