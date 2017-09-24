@@ -5,6 +5,7 @@ class StudentNavbar extends Component {
         return (
             <nav className="navbar-fixed studentnav">
                 <div className="nav-wrapper">
+                <a href="#" className="brand-logo">Logo</a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><a href="#">Logout</a></li>
                 </ul>

@@ -42,10 +42,128 @@ body{
     background-repeat: no-repeat;
     height: 300px;
 }
-
-.card.card-image{
-    width: 100px;
+.title{
+    background-color: rgba(76,76,255,0.7);
+    padding: 10px 20px !important;
+    
 }
-.card.card-image img{
-    width: 100%;
+
+.challengePage h4{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.progressBar{
+    text-align: center;
+}
+
+.progressBar i{
+    border: 2px solid #4c4cff;
+    margin: 5px;
+    color: #4c4cff;
+    font-weight: bold;
+    background-color: white;
+    padding: 4px;
+    border-radius: 100%;
+}
+.progressBar .circleProgress{
+    border: 2px solid #4c4cff;
+    margin: 5px;
+    margin-top: 0px !important;
+    color: #4c4cff;
+    font-weight: bold;
+    padding: 6px 11px;
+   
+    border-radius: 100%;
+}
+
+.greenColor{
+      border: 2px solid rgba(20,235,0,1) !important;
+    background-color: rgba(20,235,0,1) !important;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(20,235,0,1);
+-moz-box-shadow: 0px 0px 11px -1px rgba(20,235,0,1);
+box-shadow: 0px 0px 11px -1px rgba(20,235,0,1);
+}
+.lock{
+    color: gray !important;
+     border: 2px solid gray !important;
+    
+}
+.topBar{
+    margin-top: 40px;
+}
+.challengePage.right{
+    float: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+.challengePage h6{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.progressBarDone{
+    text-align: right;
+    display: inline-block;
+}
+.progressBarDone i{
+    border: 2px solid #4c4cff;
+    margin: 5px;
+    color: #4c4cff;
+    font-weight: bold;
+    background-color: white;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.progressBarDone .status{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #16f70b;
+}
+
+.progressBarDone .current{
+    border-color: #f7e20b;
+    background-color: #f7e20b;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+}
+
+.offerPage .card .card-content{
+    padding-bottom: 0px;
+}
+
+
+.action1 a{
+    float: right;
+} 
+
+#currentRank{
+  
+}
+
+.floatRight{
+    float: right;
+}
+.progressBarDone h6{
+    display: inline-block;
+    margin-right: 50px;
+   font-weight: bold;
+}
+
+.gold{
+        border-color: #f7e20b !important;
+    background-color: #f7e20b !important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
 }

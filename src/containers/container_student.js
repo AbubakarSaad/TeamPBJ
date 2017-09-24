@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import Navbar from '../components/navbar';
-import Skills from '../components/skills';
-import AboutMe from '../components/AboutMe';
-import Education from '../components/Education';
-import StudentNavbar from '../components/studentnavbar';
+import Challenges from '../components/challenge';
+import MainStudent from '../components/mainstudent.js';
+import OfferPage from '../components/offers.js';
 
+import {Route, Switch } from 'react-router-dom';
 class StudentPage extends Component{
 
   render(){
     return(
       <div>
-        <StudentNavbar />
+        
         <div className="row">
           <div className="col s3">
             <Navbar />
           </div>
           
           <div className="col s9">
-              <Skills />
-              <AboutMe />
-              <Education />
+              <Switch>
+                    <Route exact path="/" component={MainStudent} />
+                    <Route path="/student/offers" component={OfferPage} />
+                    
+                </Switch>
           </div>            
         </div>
       </div>

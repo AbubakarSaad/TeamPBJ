@@ -13,7 +13,7 @@ class skills extends Component {
     render() {
         const { showing } = this.state;
         return (
-            <div>
+            <div className="studentnav">
                 <div className="row">
                     <div className="col s12">
                         <div className="card">
