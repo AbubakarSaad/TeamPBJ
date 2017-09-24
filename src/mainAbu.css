@@ -1,0 +1,55 @@
+@import url("mainJeff.css");
+
+body {
+    background: #f4f4f4;
+}
+
+#slide-out {
+    background: #333643;
+    color: white;
+}
+
+.side-nav li>a {
+    color: white;
+}
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+    color: white;
+}
+
+.card {
+    width:100%;
+}
+
+.chipWrapper {
+    margin-top: 10px;
+}
+
+.aboutme {
+    margin-top: 10px;
+}
+.education {
+    margin-top: 10px;
+}
+.edumac {
+    margin-top: 25px;
+}
+
+.chipstatus {
+    margin-left: 20px;
+}
+
+.scoreblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: inherit;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-80%);
+}
+
+.scoretext {
+    margin-top: 0;
+}
