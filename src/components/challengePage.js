@@ -20,7 +20,7 @@ class ChallengePage extends Component {
                                 Current Rank
                             </div>
                         </div>
-                   
+                    
                     <div className = "col s12 ">
                         <h4> Challenges - JAVA </h4>
                     </div>

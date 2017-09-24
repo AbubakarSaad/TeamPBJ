@@ -15,6 +15,9 @@ import RecruiterPage from './containers/container_recruiter';
 import StudentPage from './containers/container_student';
 
 import ChallengePage from './containers/container_challenges';
+import offers from './components/offers';
+
+
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'materialize-css/dist/js/materialize.min.js';
@@ -40,6 +43,7 @@ ReactDOM.render(
   <Route path="/student" component={StudentPage} />
   <Route path="/recruiter" component={RecruiterPage} />
   <Route path="/challenges" component={ChallengePage} />
+  <Route path="/offers" component={offers} />
     
   </Switch>
 
