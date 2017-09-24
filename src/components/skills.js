@@ -4,8 +4,8 @@ import nodejs from '../images/if_nodejs-512_339733.png';
 import html5 from '../images/if_html5_294678.png';
 import react from '../images/if_react_1296845.png';
 import sql from '../images/if_Sql-runner_70664.png';
-import cooporation from '../images/cooporation.png';
-import relationship from '../images/relationship.png';
+import cooporation from '../images/communication.png';
+import relationship from '../images/Presentation.png';
 import teamwork from '../images/teamwork.png';
 
 const skills = () => {
@@ -36,13 +36,13 @@ const skills = () => {
                                     <img src={react} alt="react"/> React 
                                 </div>
                                 <div className="chip">
-                                    <img src={cooporation} alt="cooporation"/> cooporation
+                                    <img src={cooporation} alt="cooporation"/> Communication
                                 </div>
                                 <div className="chip">
-                                    <img src={relationship} alt="relationship"/> relationship
+                                    <img src={relationship} alt="relationship"/> Presentation
                                 </div>
                                 <div className="chip">
-                                    <img src={teamwork} alt="teamwork"/> teamwork
+                                    <img src={teamwork} alt="teamwork"/> Teamwork
                                 </div>
                             </div>
                         </div>

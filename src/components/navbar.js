@@ -21,7 +21,7 @@ class Navbar extends Component {
                                 <a href="#"><img className="circle" src={avatar} alt="person"/></a>
                             </div>
                             <div className="col s6">
-                                <a href="#!name"><span className="white-text name">John Doe</span></a>
+                                <a href="#!name"><span className="white-text name">John Smith</span></a>
                                 <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
                             </div>
                             <div className="chip chipstatus">
