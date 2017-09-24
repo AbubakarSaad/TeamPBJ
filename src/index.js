@@ -13,9 +13,11 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import RecruiterPage from './containers/container_recruiter';
 import StudentPage from './containers/container_student';
-
+import ChallengePage from './containers/container_challenges';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import 'materialize-css/dist/css/materialize.min.css';
+import './mainJeff.css';
+
 
 const storeWithMiddleWare = applyMiddleware(routerMiddleware(createBrowserHistory({forceRefresh:true})))(createStore);
 
@@ -34,6 +36,8 @@ ReactDOM.render(
   <Route exact path="/" component={StudentPage} />
   <Route path="/student" component={StudentPage} />
   <Route path="/recruiter" component={RecruiterPage} />
+  <Route path="/challenges" component={ChallengePage} />
+    
   </Switch>
 
   </div>

@@ -13,7 +13,7 @@ class StudentPage extends Component{
           <div className="col s3">
             <Navbar />
           </div>
-          <div className="col s9">
+          <div className="col s10">
               <Skills />
               <AboutMe />
               <Education />

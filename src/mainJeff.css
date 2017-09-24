@@ -1,0 +1,42 @@
+body{
+    background: #3a3a3c;
+    
+
+
+}
+
+.bottomPad{
+    margin-bottom: 2px;
+}
+.padding{
+    padding: 1px;
+}
+#challenge1{
+    background: url(images/challenge1b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#challenge2{
+    background: url(images/challenge2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#challenge3{
+    background: url(images/challenge3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#challenge4{
+    background: url(images/challenge4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.challengeBox{
+    height: 200px;
+    margin: 10px !important;
+}
+.challengeBox h4{
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+
