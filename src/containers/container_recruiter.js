@@ -55,6 +55,9 @@ class RecruiterPage extends Component{
         <h5>Talent Feed</h5>
         <div style={{'text-align': 'left'}}>
         <blockquote>
+        <a href="/recruiter/student">Jane</a> has the highest score for Python!
+        </blockquote>
+        <blockquote>
         <a href="/recruiter/student">Jacob</a> just became a Java Knight!
         </blockquote>
         <blockquote>

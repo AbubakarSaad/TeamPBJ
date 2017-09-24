@@ -27,11 +27,11 @@ class SearchResults extends Component{
       return(
         <div className="card horizontal" key={obj.name}>
         <div className="card-image">
-          <img alt="profile-img" src={obj.image} />
+          <img alt="profile-img" height="100px" style={{ 'margin-top': '50px', 'padding-left':'10px' }}  src={obj.image} />
         </div>
           <div className="card-stacked">
           <div className="card-content" style={{width: '100%'}}>
-          <span className="card-title" ><a href="/recruiter/student">{obj.lastname}, {obj.firstname}</a> <span className="score">445</span></span>
+          <span className="card-title" ><a href="/recruiter/student">{obj.lastname}, {obj.firstname}</a> <span className="score">{obj.score}</span></span>
             <p>{obj.program} - {obj.school}</p>
             <p>{this.renderWork(obj.experience)}</p>
             <br />

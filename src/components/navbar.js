@@ -26,7 +26,9 @@ class Navbar extends Component {
                                 <a href="#!name"><span className="white-text name">Jane Smith</span></a>
                                 <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
                                 <div>
-                                    <span className="valign right" style={{color: '#2ecc71'}}>Available</span>
+                                <div className="chip chipstatus2" >
+                                    <img src={check} alt="check"/> Available
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +37,7 @@ class Navbar extends Component {
 
                 <li><a href="/"><i className="material-icons">android</i>Profile</a></li>
                 <li><a href="/student/offers"><i className="material-icons">assignment_ind</i>Applications</a></li>
-                <li><a href="/challenges"><i className="material-icons">school</i>Challenges</a></li>
+                <li><a href="/student/challenges"><i className="material-icons">school</i>Challenges</a></li>
 
                 <li><a href="/department"><i className="material-icons">domain</i>Departments</a></li>
                 <div className="scoreblock valign-wrapper valign center-block">

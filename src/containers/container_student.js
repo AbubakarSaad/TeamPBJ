@@ -20,6 +20,7 @@ class StudentPage extends Component{
               <Switch>
                     <Route exact path="/" component={MainStudent} />
                     <Route path="/student/offers" component={OfferPage} />
+                    <Route path="/student/challenges" component={Challenges} />
 
                 </Switch>
           </div>
