@@ -35,10 +35,6 @@ body {
     margin-top: 25px;
 }
 
-.chipstatus {
-    margin-left: 20px;
-}
-
 .scoreblock {
     display: flex;
     align-items: center;
@@ -52,4 +48,8 @@ body {
 
 .scoretext {
     margin-top: 0;
+}
+
+.studentnav {
+    margin-bottom: 20px;
 }

@@ -3,16 +3,19 @@ import Navbar from '../components/navbar';
 import Skills from '../components/skills';
 import AboutMe from '../components/AboutMe';
 import Education from '../components/Education';
+import StudentNavbar from '../components/studentnavbar';
 
 class StudentPage extends Component{
 
   render(){
     return(
       <div>
+        <StudentNavbar />
         <div className="row">
           <div className="col s3">
             <Navbar />
           </div>
+          
           <div className="col s9">
               <Skills />
               <AboutMe />

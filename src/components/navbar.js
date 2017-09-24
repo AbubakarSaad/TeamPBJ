@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import avatar from '../images/avatar.png';
-import darkblue from '../images/alittledarkblue.png';
+import blue from '../images/blue.png';
 import check from '../images/if_sign-check_299110.png';
 import score from '../images/score.png';
 
@@ -14,27 +14,25 @@ class Navbar extends Component {
                 <li>
                     <div className="user-view">
                         <div className="background">
-                            <img src={darkblue} alt="office"/>
+                            <img src={blue} alt="office"/>
                         </div>
                         <div className="row">
                             <div className="col s4">
                                 <a href="#"><img className="circle" src={avatar} alt="person"/></a>
                             </div>
-                            <div className="col s6">
+                            <div className="col s8">
                                 <a href="#!name"><span className="white-text name">Jane Smith</span></a>
                                 <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
+                                <div>
+                                    <span className="valign right" style={{color: '#2ecc71'}}>Available</span>
+                                </div>
                             </div>
-                            <div className="chip chipstatus">
-                                <img src={check} alt="check"/> Available 
-                            </div>
-                            
                         </div>
-                        
                     </div>
                 </li>
-                <li><a href="#!"><i className="material-icons">android</i>Technical</a></li>
-                <li><a href="#!"><i className="material-icons">assignment_ind</i>About Me</a></li>
-                <li><a href="#!"><i className="material-icons">school</i>Education</a></li>
+                <li><a href="#!"><i className="material-icons">android</i>Profile</a></li>
+                <li><a href="#!"><i className="material-icons">assignment_ind</i>Applications</a></li>
+                <li><a href="#!"><i className="material-icons">school</i>Challenges</a></li>
 
                 <div className="scoreblock valign-wrapper valign center-block">
                     <div className="row">
