@@ -15,16 +15,16 @@ class StudentChallenges extends Component {
                                 <div>
                                     <div className="card-title">Assessment</div>
                                     <div className="divider"></div>
-                                    <div className="fixed-action-btn horizontal" style={{position: 'absolute', display: 'inline-block', right: 19, top: 4}}>
+                                    {this.props.visible ? (<div className="fixed-action-btn horizontal" style={{position: 'absolute', display: 'inline-block', right: 19, top: 4}}>
                                  <span id ="currentRank"><img src={rookIcon} alt = "Assessment" height="56px"/></span>
-                                </div>
+                                </div>) : ''}
                                 </div>
                                 <div className="aboutme">
                                     <p>Technical : Level 3 - Rook</p>
-                                   
+
                                     <div>
-                                    
-                                    
+
+
 
                                             <div className="card horizontal">
                                                 <div className="card-image">
@@ -34,27 +34,26 @@ class StudentChallenges extends Component {
 
                                                     <div className="card-content">
                                                         <div className="row progressBarDone">
-                                                            <h6>The Knight's Revenge </h6>
-                                                            
+                                                            <h6>The Knights Revenge </h6>
+
                                                                  <span><i className="material-icons">check</i></span>
                                                                  <span><i className="material-icons">check</i></span>
                                                                  <span><i className="gold material-icons">3</i></span>
-                                                           
+
                                                         </div>
                                                     </div>
                                                 </div>
-                                          
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
-                </div>     
-            </div>           
+                </div>
+            </div>
         );
     }
 };
 
 export default StudentChallenges;
-

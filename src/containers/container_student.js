@@ -15,12 +15,12 @@ class StudentPage extends Component{
             <Navbar />
           </div>
           <div className="col s9">
-              <Skills />
-                <Challenges />
+              <Skills visible={true}/>
+                <Challenges visible={true} />
               <AboutMe />
-              
-              <Education />
-          </div>            
+
+              <Education visible={true}/>
+          </div>
         </div>
       </div>
     );

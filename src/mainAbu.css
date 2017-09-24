@@ -35,8 +35,12 @@ body {
     margin-top: 25px;
 }
 
-.chipstatus {
+.chipstatus, .profileBody, .profileText {
     margin-left: 20px;
+}
+
+.profileText{
+  font-size: 1.2em;
 }
 
 .scoreblock {

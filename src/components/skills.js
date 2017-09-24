@@ -21,11 +21,13 @@ class skills extends Component {
                                 <div>
                                     <span className="card-title">Interests</span>
                                     <div className="divider"></div>
-                                    <div className="fixed-action-btn horizontal" style={{position: 'absolute', display: 'inline-block', right: 19, top: 4}}>
+                                    {this.props.visible ? (<div className="fixed-action-btn horizontal" style={{position: 'absolute', display: 'inline-block', right: 19, top: 4}}>
                                         <a className="btn-floating btn-large blue">
                                         <i className="large material-icons">mode_edit</i>
                                         </a>
-                                    </div>
+                                    </div>) : ''}
+
+
                                 </div>
                                 <div className="chipWrapper">
                                     <div className="chip" onClick={() => this.setState({ showing: !showing})}>
@@ -34,8 +36,26 @@ class skills extends Component {
                                     </div>
                                     { showing ? <div className="card">
                                         <div className="card-content">
-                                        <p>  I am interested in working with Angular JS as it makes the web development process much more efficient. I will be able to pick up this skill quickly and easily as I am well familiar and experinced with similar technologies such as HTML and React due to 
-                                        a 8-month co-op position that I completed as a front end developer at company X in 2015.</p>
+
+
+
+
+
+                                                                <h6  style={{color:"blue"}}> Experiences: </h6>
+                                                                <p>- I completed a 4-month co-op work term with company X in 2016, as a Front-end Developer, and used Angular JS for multiple projects</p>
+                                                                <p>- As a personal project I created a website for a music club which I am a part of at McMaster and used Angular Js</p>
+                                                                <br />
+                                                                <h6 style={{color:"blue"}}> Courses: </h6>
+                                                                <p> The Complete Angular JS Course - From Novice To Professional (2016)</p>
+
+
+
+
+
+
+
+
+
                                         </div>
                                         </div> : null }
                                     <div className="chip">
@@ -49,7 +69,7 @@ class skills extends Component {
                                         <img src={sql} alt="sql"/> DataBase
                                     </div>
                                     <div className="chip">
-                                        <img src={react} alt="react"/> React 
+                                        <img src={react} alt="react"/> React
                                     </div>
                                     <div className="chip">
                                         <img src={cooporation} alt="cooporation"/> Communication
@@ -64,7 +84,7 @@ class skills extends Component {
                             </div>
                         </div>
                     </div>
-                </div>        
+                </div>
         </div>
         );
     }
