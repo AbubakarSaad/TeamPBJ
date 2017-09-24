@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import avatar from '../images/avatar.png';
+import rbcblue from '../images/rbcblue.jpg';
 
 
 
@@ -11,9 +13,9 @@ class Navbar extends Component {
                 <li>
                     <div className="user-view">
                         <div className="background">
-                            <img src="../images/if_angular_1145600.jpg" alt="office"/>
+                            <img src={rbcblue} alt="office"/>
                         </div>
-                        <a href="#"><img className="circle" src="../images/if_Sql-runner_70664.jpg" alt="person"/></a>
+                        <a href="#"><img className="circle" src={avatar} alt="person"/></a>
                         <a href="#!name"><span className="white-text name">John Doe</span></a>
                         <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
                     </div>
