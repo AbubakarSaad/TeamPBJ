@@ -5,12 +5,7 @@ body{
 
 }
 
-.bottomPad{
-    margin-bottom: 2px;
-}
-.padding{
-    padding: 1px;
-}
+
 #challenge1{
     background: url(images/challenge1b.png);
     background-size: cover;
@@ -33,10 +28,28 @@ body{
 }
 .challengeBox{
     height: 200px;
-    margin: 10px !important;
+    margin-bottom: 2px;
 }
 .challengeBox h4{
     padding-bottom: 10px;
     border-bottom: 1px solid red;
 }
 
+.challengeIntro h2{
+    text-align: center;
+    color: white;
+}
+
+.introBox{
+    background: url(images/introduction.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.card.card-image{
+    width: 100px;
+}
+.card.card-image img{
+    width: 100%;
+}

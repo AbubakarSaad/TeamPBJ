@@ -6,18 +6,18 @@ class Challenge extends Component {
         return (
             <div>
                 <div className = "row bottomPad">
-                    <div className="col-md-6 padding">
+                    <div className="col m6 ">
                         <div className="challengeBox " id="challenge1"></div>
                     </div>
-                    <div className="col-md-6 padding">
+                    <div className="col m6">
                         <div className="challengeBox " id="challenge2"></div>
                     </div>
                 </div>
                 <div className = "row bottomPad">
-                   <div className="col-md-6 padding">
+                   <div className="col m6">
                         <div className="challengeBox " id="challenge3"></div>
                     </div>
-                    <div className="col-md-6 padding">
+                    <div className="col m6">
                         <div className="challengeBox " id="challenge4"></div>
                     </div>
                 </div>

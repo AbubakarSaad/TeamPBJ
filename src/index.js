@@ -14,9 +14,9 @@ import createBrowserHistory from 'history/createBrowserHistory';
 import RecruiterPage from './containers/container_recruiter';
 import StudentPage from './containers/container_student';
 
+import 'materialize-css/dist/js/materialize.js'
+import 'materialize-css/dist/css/materialize.min.css';
 
-
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './mainJeff.css';
 import ChallengePage from './containers/container_challenges';
 

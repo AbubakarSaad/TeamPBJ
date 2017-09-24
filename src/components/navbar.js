@@ -6,7 +6,7 @@ class Navbar extends Component {
     render() {
         return (
 
-          <div className="col-2 flex-first flex-md-unordered bg-faded px-0">
+          <div className="col m2">
                 <nav className="nav flex-column">
                     <a className="nav-item nav-link" href="#">Dashboard</a>
                     <a className="nav-item nav-link" href="#">Users</a>
