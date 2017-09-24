@@ -6,10 +6,9 @@ class Offers extends Component {
     
     render() {
         return (
-            <div className = "container">
+            <div className = "studentnav offerPage">
                 <div className="row">
                     <div className="col s12 m12">
-                        <h2 className="header">Offers</h2>
                         <div className="card horizontal">
                           <div className="card-image">
                             <img src={logo} alt="RBC" height="180px"/>
@@ -73,7 +72,7 @@ class Offers extends Component {
                                         <ul>
                                             <li>Reviewing current systems</li>
                                             <li>Working closely with analysts, designers and staff</li>
-                                            <li>Presenting ideas for system improvements, including cost proposals</li>
+                                            <li>Presenting ideas for system improvements</li>
                                         </ul>
             
                                     </div>

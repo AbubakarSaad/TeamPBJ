@@ -1,26 +1,29 @@
 import React, { Component } from 'react';
 import Navbar from '../components/navbar';
-import Skills from '../components/skills';
-import AboutMe from '../components/AboutMe';
-import Education from '../components/Education';
-import Challenges from '../components/StudentChallenges';
+import Challenges from '../components/challenge';
+import MainStudent from '../components/mainstudent.js';
+import OfferPage from '../components/offers.js';
 
+import {Route, Switch } from 'react-router-dom';
 class StudentPage extends Component{
 
   render(){
     return(
       <div>
+
         <div className="row">
           <div className="col s2">
             <Navbar />
           </div>
-          <div className="col s10">
-              <Skills visible={true}/>
-                <Challenges visible={true} />
-              <AboutMe />
 
-              <Education visible={true}/>
+          <div className="col s9">
+              <Switch>
+                    <Route exact path="/" component={MainStudent} />
+                    <Route path="/student/offers" component={OfferPage} />
+
+                </Switch>
           </div>
+
         </div>
       </div>
     );

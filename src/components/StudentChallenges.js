@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import rookIcon from '../images/rookIcon.png';
-import knight from '../images/knight.png';
-
+import knight from '../images/knight2.png';
+import kira from '../images/kira.jpg';
 class StudentChallenges extends Component {
 
     render() {
@@ -23,27 +23,47 @@ class StudentChallenges extends Component {
                                     <p>Technical : Level 3 - Rook</p>
 
                                     <div>
+                                        <div className="card horizontal">
+                                            <div className="card-image">
 
-
-
-                                            <div className="card horizontal">
-                                                <div className="card-image">
                                                     <img src={knight} alt="Challenge" height="115px"/>
-                                                </div>
-                                                <div className="card-stacked">
+                                            </div>
+                                            <div className="card-stacked">
 
-                                                    <div className="card-content">
-                                                        <div className="row progressBarDone">
-                                                            <h6>The Knights Revenge </h6>
-
+                                                <div className="card-content">
+                                                    <div className="row progressBarDone">
+                                                        <h6>The Knight's Revenge </h6>
+                                                            
                                                                  <span><i className="material-icons">check</i></span>
                                                                  <span><i className="material-icons">check</i></span>
                                                                  <span><i className="gold material-icons">3</i></span>
-
-                                                        </div>
+                                                           
                                                     </div>
                                                 </div>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+                                    <p>Behavioural Assessment</p>
+                                   
+                                    <div>
+                                        <div className="card horizontal">
+                                            <div className="card-image">
+                                                    <img src={kira} alt="Challenge" height="115px"/>
+                                            </div>
+                                            <div className="card-stacked">
 
+                                                <div className="card-content">
+                                                    <div className="row progressBarDone">
+                                                        <h6>Behavioural Interview </h6>
+                                                            
+                                                                 <span><i className="material-icons">check</i></span>
+                                                                 
+                                                           
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          
                                         </div>
                                     </div>
                                 </div>
