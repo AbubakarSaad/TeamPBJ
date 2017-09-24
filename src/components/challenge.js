@@ -4,7 +4,7 @@ class Challenge extends Component {
 
     render() {
         return (
-            <div>
+            <div className ="studentnav">
                 <div className = "row bottomPad">
                     <div className="col s12 m6">
                         <div className="challengeBox " id="challenge1"></div>
