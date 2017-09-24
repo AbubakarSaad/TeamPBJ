@@ -4,9 +4,9 @@ const students = [
       firstname: "John",
       lastname: "Smith",
       program: "Bachelors of Computer Science",
-      school: "University of Toronto",
+      school: "University of McMaster",
       experience: [{ name: 'RBC', role: "TSA"}, { name: 'CIBC', role: "Developer"}, { name: "Google", role: "CEO" }],
-      skills: [{ skill: "java", score: '56'}, { skill: 'python', score: '45'}, { skill: 'C++', score: '134'}]
+      skills: [{ skill: "java", score: '17'}, { skill: 'python', score: '25'}, { skill: 'C++', score: '134'}]
   },
   {
       id: 2,
