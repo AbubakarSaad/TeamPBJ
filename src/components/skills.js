@@ -4,6 +4,9 @@ import nodejs from '../images/if_nodejs-512_339733.png';
 import html5 from '../images/if_html5_294678.png';
 import react from '../images/if_react_1296845.png';
 import sql from '../images/if_Sql-runner_70664.png';
+import cooporation from '../images/cooporation.png';
+import relationship from '../images/relationship.png';
+import teamwork from '../images/teamwork.png';
 
 const skills = () => {
     return (
@@ -16,21 +19,30 @@ const skills = () => {
                             <div className="divider"></div>
                             <div className="chipWrapper">
                                 <div className="chip">
-                                    <img src={angular} alt="Contact Person" />
+                                    <img src={angular} alt="angular" />
                                     Angular
                                 </div>
                                 <div className="chip">
                                     <img src={nodejs} alt="nodejs"/> JavaScript
                                 </div>
                                 <div className="chip">
-                                    <img src={html5} alt="nodejs"/> HTML
+                                    <img src={html5} alt="html5"/> HTML
                                 </div>
 
                                 <div className="chip">
-                                    <img src={sql} alt="nodejs"/> DataBase
+                                    <img src={sql} alt="sql"/> DataBase
                                 </div>
                                 <div className="chip">
-                                    <img src={react} alt="nodejs"/> React 
+                                    <img src={react} alt="react"/> React 
+                                </div>
+                                <div className="chip">
+                                    <img src={cooporation} alt="cooporation"/> cooporation
+                                </div>
+                                <div className="chip">
+                                    <img src={relationship} alt="relationship"/> relationship
+                                </div>
+                                <div className="chip">
+                                    <img src={teamwork} alt="teamwork"/> teamwork
                                 </div>
                             </div>
                         </div>
