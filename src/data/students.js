@@ -1,5 +1,6 @@
 const students = [
   {
+      id: 1,
       firstname: "John",
       lastname: "Smith",
       program: "Bachelors of Computer Science",
@@ -8,6 +9,7 @@ const students = [
       skills: [{ skill: "java", score: '17'}, { skill: 'python', score: '25'}, { skill: 'C++', score: '134'}]
   },
   {
+      id: 2,
       firstname: "Jacob",
       lastname: "Salavar",
       program: "Bachelor in Business Administration",

@@ -33,16 +33,26 @@ class RecruiterPage extends Component{
   render(){
     const search = () => {
       return(
-        <div>
-        <h3>Talent Search</h3>
         <div className="row">
-        <div className="form-group">
+        <div className="col s10">
+        <h4>Talent Search</h4>
+        <div className="row">
+        <div className="col s12">
           <SearchBar update={this.updateResults}/>
         </div>
         </div>
 
         <div className="row">
+          <div className="col s12">
           <SearchResults results={this.state.results}/>
+          </div>
+        </div>
+        </div>
+
+        <div className="col s2">
+
+        <h5>Talent Feed</h5>
+
         </div>
         </div>
       )

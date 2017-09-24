@@ -20,6 +20,7 @@ class SearchResults extends Component{
     })
   }
 
+
   renderResults(results){
 
     return results.map(obj => {
@@ -48,10 +49,8 @@ class SearchResults extends Component{
 
           <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">Request Initial Interview<i className="material-icons right">close</i></span>
-            <form onSubmit={e=>{
-              e.preventDefault();
-              console.log(e.target.url.value);
-            }}>
+            <form>
+            <input name="id" value={obj.id} style={{ display: 'none' }} readOnly/>
             <div className="row">
 
              <div className="col s6 input-field">
@@ -72,7 +71,7 @@ class SearchResults extends Component{
 
             </div>
 
-            <button className="btn btn-primary score" type="submit">Submit</button>
+            <button className="btn btn-primary score" onClick={e=> {e.preventDefault()}}>Submit</button>
             </form>
 
           </div>

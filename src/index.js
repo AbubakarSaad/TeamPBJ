@@ -19,7 +19,8 @@ import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.js';
 import './mainAbu.css';
 import ChallengePage from './containers/container_challenges';
-import './script.js'
+
+import Dept from './containers/container_departments';
 
 
 const storeWithMiddleWare = applyMiddleware(routerMiddleware(createBrowserHistory({forceRefresh:true})))(createStore);
@@ -40,6 +41,7 @@ ReactDOM.render(
   <Route path="/student" component={StudentPage} />
   <Route path="/recruiter" component={RecruiterPage} />
   <Route path="/challenges" component={ChallengePage} />
+  <Route path="/department" component={Dept} />
 
   </Switch>
 
