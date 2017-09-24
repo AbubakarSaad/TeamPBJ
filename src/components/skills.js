@@ -8,21 +8,25 @@ import sql from '../images/if_Sql-runner_70664.png';
 const skills = () => {
     return (
         <div className="row">
-            <div className="col-md-2">
-                <img src={angular} alt="nodejs" className="img-responsive"/>
+            <h2>Techincal Skills</h2>
+            <div className="row">
+                <div className="col-md-2">
+                    <img src={angular} alt="nodejs" className="img-responsive"/>
+                </div>
+                <div className="col-md-2">
+                    <img src={nodejs} alt="nodejs" className="img-responsive"/>
+                </div>
+                <div className="col-md-2">
+                    <img src={html5} alt="nodejs" className="img-responsive"/>
+                </div>
+                <div className="col-md-2">
+                    <img src={react} alt="nodejs" className="img-responsive"/>
+                </div>
+                <div className="col-md-2">
+                    <img src={sql} alt="nodejs" className="img-responsive"/>
+                </div>
             </div>
-            <div className="col-md-2">
-                <img src={nodejs} alt="nodejs" className="img-responsive"/>
-            </div>
-            <div className="col-md-2">
-                <img src={html5} alt="nodejs" className="img-responsive"/>
-            </div>
-            <div className="col-md-2">
-                <img src={react} alt="nodejs" className="img-responsive"/>
-            </div>
-            <div className="col-md-2">
-                <img src={sql} alt="nodejs" className="img-responsive"/>
-            </div>
+            <h2>Interpersonal skills</h2>
         </div>
     );
 }
