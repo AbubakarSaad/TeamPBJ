@@ -139,10 +139,30 @@ box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
 }
 
 .card .card-content{
-    padding-bottom: 0px !important;
 }
 
 
 .action1 a{
     float: right;
+}
+
+#currentRank{
+  
+}
+
+.floatRight{
+    float: right;
+}
+.progressBarDone h6{
+    display: inline-block;
+    margin-right: 50px;
+   font-weight: bold;
+}
+
+.gold{
+        border-color: #f7e20b !important;
+    background-color: #f7e20b !important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
+box-shadow: 0px 0px 5px 0px rgba(247,227,11,1);
 }

@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import Skills from '../components/skills';
 import AboutMe from '../components/AboutMe';
 import Education from '../components/Education';
+import Challenges from '../components/StudentChallenges';
 
 class StudentPage extends Component{
 
@@ -15,7 +16,9 @@ class StudentPage extends Component{
           </div>
           <div className="col s9">
               <Skills />
+                <Challenges />
               <AboutMe />
+              
               <Education />
           </div>            
         </div>
