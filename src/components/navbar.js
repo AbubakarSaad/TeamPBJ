@@ -21,7 +21,7 @@ class Navbar extends Component {
                                 <a href="#"><img className="circle" src={avatar} alt="person"/></a>
                             </div>
                             <div className="col s6">
-                                <a href="#!name"><span className="white-text name">John Smith</span></a>
+                                <a href="#!name"><span className="white-text name">Jane Smith</span></a>
                                 <a href="#!email"><span className="white-text email">jdandturk@gmail.com</span></a>
                             </div>
                             <div className="chip chipstatus">
@@ -32,9 +32,9 @@ class Navbar extends Component {
                         
                     </div>
                 </li>
-                <li><a href="#!"><i className="material-icons">cloud</i>Techncail</a></li>
-                <li><a href="#!"><i className="material-icons">cloud</i>About Me</a></li>
-                <li><a href="#!"><i className="material-icons">cloud</i>Education</a></li>
+                <li><a href="#!"><i className="material-icons">android</i>Technical</a></li>
+                <li><a href="#!"><i className="material-icons">assignment_ind</i>About Me</a></li>
+                <li><a href="#!"><i className="material-icons">school</i>Education</a></li>
 
                 <div className="scoreblock valign-wrapper valign center-block">
                     <div className="row">
